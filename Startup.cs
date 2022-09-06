@@ -47,14 +47,14 @@ namespace CCAP.Api
             {
                 config.SwaggerDoc("v1", new OpenApiInfo
                 {
+
                     Version = "v1",
                     Title = "Credit Card Application Processing",
                     Description = "Processing the credit card applications for the bank",
                     Contact = new OpenApiContact
                     {
                         Name = "Prachi Poddar",
-                        Email = "prachi99poddar@gmail.com",
-                        Url = new Uri("http://domain.com/john.doe"),
+                        Email = "prachi99poddar@gmail.com"                        
                     },
                     License = new OpenApiLicense
                     {
